@@ -1,40 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-size: large;
-    position: fixed;
-    top: 15%;
-    left: 40%;
+body {
+  font-size: large;
+  position: fixed;
+  top: 15%;
+  left: 40%;
 }
 
 .box {
-    text-align:center;
-    width:270px;
-    height: 20px;
-    padding: 1em;
-    border: 2px solid yellow;
-    font-family: sans-serif;
-    color: black;
-    background-color: white;
-    width: 253px;
-height: 12px;
-display: flex;
-justify-content: center;
-align-items: center;
+  text-align: center;
+  width: 270px;
+  height: 20px;
+  padding: 1em;
+  border: 2px solid rgb(0, 0, 0);
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  width: 297px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 4.5em;
+  height: 4.5em;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  background-color: #38b806;
+  border-radius: 10px;
+  border: 1px solid #333333;
+
+}
+button:hover {
+  background-color: #3bcf01;
+}
+
+.operator {
+  background-color: #e60000;
+}
+
+.operator:hover {
+  background-color: #ff631a;
+}
+
+.indent button{
+  width: 1250%;
+  border-radius: 50%;
+}
+
+.indent button:hover {
+  background-color: #1c20e7;
 }
 
 
-button {
-    width:4.5em;
-    height: 4.5em;
-    font-weight:bold;
-    font-size: 16px;
-    color: white;
-    background-color: #666666;
-    border-radius: 10px;
-    border: 1px solid #333333;
+a:link {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+#equal_sign{
+  width: 293px;
 }
